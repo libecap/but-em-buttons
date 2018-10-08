@@ -1,19 +1,21 @@
 html {
+  font-family: "Ubuntu Condensed", sans-serif;
 }
 
 body {
-  background-image: url("../images/seamless-starfield-texture.jpg");
+  background-image: url("../images/starfield.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .explore {
   color: #fff;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, .7);
 }
 
 .btn-ghost a {
   color: #b4fff4;
+  display: inline;
 }
 
 .btn-ghost {
@@ -21,10 +23,7 @@ body {
   border-style: solid;
   border-color: #b4fff4;
   box-shadow: 0 10px rgba(255, 255, 255, .1);
-}
-
-.btn-ghost a {
-  display: inline;
+  transition: linear 150ms;
 }
 
 .rocket {
@@ -32,12 +31,12 @@ body {
 }
 
 .rocket:hover {
-  transform: translateY(-4px)
+  transform: translateY(-4px);
 }
 
-
 .btn-ghost:hover {
-  background-color: rgba(180, 255, 244, .2)}
+  background-color: rgba(180, 255, 244, .2);
+}
 
 .btn-ghost:active {
   box-shadow: 0 5px rgba(180, 255, 244, .2);
