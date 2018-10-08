@@ -1,13 +1,45 @@
-font-family: 'Ubuntu Condensed', sans-serif;
+html {
+}
 
-.btn
+body {
+  background-image: url("../images/seamless-starfield-texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.btn-ghost
+.explore {
+  color: #fff;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
 
-.icon
+.btn-ghost a {
+  color: #b4fff4;
+}
 
-.i-32
+.btn-ghost {
+  display: inline-block;
+  border-style: solid;
+  border-color: #b4fff4;
+  box-shadow: 0 10px rgba(255, 255, 255, .1);
+}
 
-.height-win-full
+.btn-ghost a {
+  display: inline;
+}
 
-.h-w-1
+.rocket {
+  display: inline;
+}
+
+.rocket:hover {
+  transform: translateY(-4px)
+}
+
+
+.btn-ghost:hover {
+  background-color: rgba(180, 255, 244, .2)}
+
+.btn-ghost:active {
+  box-shadow: 0 5px rgba(180, 255, 244, .2);
+  transform: translateY(4px);
+}
