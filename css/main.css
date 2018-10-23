@@ -6,6 +6,12 @@ body {
   background-image: url("../images/starfield.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: left top;
+  padding-top: 14em;
+}
+
+.btn {
+  color: #b4fff4;
 }
 
 .explore {
@@ -19,26 +25,41 @@ body {
 }
 
 .btn-ghost {
+  text-align: center;
   display: inline-block;
   border-style: solid;
   border-color: #b4fff4;
-  box-shadow: 0 10px rgba(255, 255, 255, .1);
+  border-radius: 8px;
   transition: linear 150ms;
+  position: relative;
+  padding-bottom: 20px;
+  top: .5em;
 }
 
-.rocket {
-  display: inline;
-}
-
-.rocket:hover {
-  transform: translateY(-4px);
+.bottom-btn {
+  position: absolute;
+  border-radius: 8px;
+  min-height: .7em;
+  width: 100%;
+  border-bottom: 2px solid #b4fff4;
+  bottom: -.7em;
+  padding-top: 10px;
 }
 
 .btn-ghost:hover {
   background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+  border-radius: 8px;
+}
+
+.btn-ghost:focus {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #b4fff4;
+  border-radius: 8px;
 }
 
 .btn-ghost:active {
   box-shadow: 0 5px rgba(180, 255, 244, .2);
-  transform: translateY(4px);
+  top: .75em;
+  padding-bottom: 15px;
 }
